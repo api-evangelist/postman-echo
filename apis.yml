@@ -1,0 +1,32 @@
+aid: postman-echo
+name: Postman Echo
+description: "Test api server to receive and return value from HTTP method"
+url: https://www.postman-echo.com
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Data Validation"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Data Validation
+  - Public APIs
+apis:
+  - name: Postman Echo
+    description: "Test api server to receive and return value from HTTP method"
+    humanURL: https://www.postman-echo.com
+    baseURL: https://www.postman-echo.com
+    tags:
+      - Data Validation
+    properties:
+      - type: Documentation
+        url: https://www.postman-echo.com
+common:
+  - type: Website
+    url: https://www.postman-echo.com
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
