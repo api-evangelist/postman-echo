@@ -23,6 +23,8 @@ apis:
       - type: Documentation
         url: https://www.postman-echo.com
 common:
+  - type: DomainSecurity
+    url: security/postman-echo-domain-security.yml
   - type: Website
     url: https://www.postman-echo.com
   - type: PublicAPIsListing
