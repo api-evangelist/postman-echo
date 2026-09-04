@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://www.postman-echo.com', status: 302, note: 'declared website redirects to https://www.postman.com/postman/workspace/published-postman-templates/documentation/631643-f695cab7-6878-eb55-7943-ad88e1ccfd65?ctx=documentation — a different registrable domain (postman-echo.com -> postman.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/postman-echo.png
 name: Postman Echo
 description: "Test api server to receive and return value from HTTP method"
