@@ -41,7 +41,6 @@ apis:
   - name: Postman Echo
     description: "Test api server to receive and return value from HTTP method"
     humanURL: https://www.postman-echo.com
-    baseURL: https://www.postman-echo.com
     tags:
       - Data Validation
     properties:
